@@ -1,3 +1,4 @@
+```
 IA-IMMOBILIER/
 │
 ├── data/                             # Fichiers sources (ex : lille_2022.csv, bordeaux_2022.csv)
@@ -26,3 +27,6 @@ IA-IMMOBILIER/
 ├── README.md                         # Documentation complète du projet
 ├── .gitignore                        # Exclusion des fichiers (ex: /data/, *.pkl)
 └── .env.example                      # Exemple de fichier d’environnement (si besoin)
+``` 
+
+![alt text](nom_image.png)
