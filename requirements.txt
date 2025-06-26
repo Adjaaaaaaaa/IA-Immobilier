@@ -1,6 +1,16 @@
+#MACHING LEARNING
 pandas
 numpy
 scikit-learn
 xgboost
 matplotlib
 seaborn
+# API
+fastapi
+uvicorn
+joblib
+pandas
+scikit-learn
+pydantic
+pytest
+httpx
