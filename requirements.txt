@@ -1,16 +1,19 @@
-#MACHING LEARNING
+# Machine Learning & Traitement de données
 pandas
 numpy
 scikit-learn
 xgboost
+joblib
+
+# Visualisation
 matplotlib
 seaborn
-# API
+
+# API REST (FastAPI)
 fastapi
 uvicorn
-joblib
-pandas
-scikit-learn
 pydantic
+
+# Tests
 pytest
 httpx
