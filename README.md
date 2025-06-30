@@ -149,7 +149,7 @@ pytest
 - Vérifie la structure de la réponse, la cohérence des valeurs, etc.
 
 ---
-## 🧪 Interface 
+## 🌐 Interface 
 
 
 ![alt text](interface.png)

@@ -4,6 +4,22 @@ from app.model_loader import load_model_for_lille, load_model_for_bordeaux
 from app.predict import predict_price
 import asyncio
 
+"""
+This module defines FastAPI routes for predicting prices per square meter
+for different cities using pre-trained machine learning models.
+Routes:
+    - POST /predict/lille: Predicts price per m² for Lille using Lille's model.
+    - POST /predict/bordeaux: Predicts price per m² for Bordeaux using Bordeaux's model.
+    - POST /predict: Dynamically predicts price per m² based on the specified city ('lille' or 'bordeaux').
+Functions:
+    - simulate_external_api_call(): Simulates a long-running external API call (e.g., slow database or API).
+    - predict_lille(data): Handles prediction requests for Lille.
+    - predict_bordeaux(data): Handles prediction requests for Bordeaux.
+    - predict_dynamic(req): Handles dynamic prediction requests based on the city.
+
+"""
+
+
 router = APIRouter()
 
 # Simulation d'un appel externe long (ex: API, base lente)

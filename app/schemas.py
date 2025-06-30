@@ -1,5 +1,9 @@
 from pydantic import BaseModel, Field
 from typing import Literal
+"""
+This module defines Pydantic schemas for the IA-Immobilier prediction API.
+
+"""
 
 class PredictRequest(BaseModel):
     surface_bati: float = Field(..., gt=0)
