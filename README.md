@@ -10,7 +10,7 @@ Les objectifs concrets sont :
 - Comparer les performances entre les deux villes,
 - Proposer un service d’estimation via une **API REST FastAPI**.
 
-**👨‍💻 Projet réalisé dans le cadre de la formation Développeur IA chez Simplon.co** 
+**👨‍💻 Ce projet est réalisé dans le cadre de la formation Développeur IA chez Simplon.co** 
 
 ---
 
@@ -67,7 +67,7 @@ IA-IMMOBILIER/
 
 ---
 
-## 🔁 Phase 2 – Réentraînement sur Bordeaux
+## 🔁 Phase 2 – Application des modèles de Lille sur Bordeaux
 
 📄 `notebooks/phase_2_bordeaux.ipynb`
 
